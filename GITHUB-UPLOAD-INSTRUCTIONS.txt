@@ -1,0 +1,29 @@
+Upload every file and folder from this folder to GitHub.
+
+Main folders:
+- app
+- components
+- lib
+- models
+- public
+
+Main files:
+- package.json
+- next.config.js
+- jsconfig.json
+- .env.example
+- .gitignore
+- README.md
+- VERCEL_ENVIRONMENT_VARIABLES.txt
+
+Do not upload:
+- .env
+- .env.local
+- .next
+- node_modules
+- .vercel
+
+On Vercel:
+- Framework: Next.js
+- Build command: npm run build
+- Output directory: leave blank

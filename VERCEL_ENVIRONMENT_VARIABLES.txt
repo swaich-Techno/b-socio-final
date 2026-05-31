@@ -1,0 +1,15 @@
+B Socio Vercel Environment Variables
+
+Add these in Vercel:
+Project Settings > Environment Variables
+
+MONGODB_URI=mongodb+srv://USERNAME:PASSWORD@CLUSTER.mongodb.net/b-socio?retryWrites=true&w=majority
+JWT_SECRET=make_a_long_private_random_secret_here
+ADMIN_EMAIL=your_owner_email@example.com
+NEXT_PUBLIC_APP_URL=https://bsocio.in
+CONTACT_RECEIVING_EMAIL=connect@bsocio.in
+
+Important:
+- Do not upload .env or .env.local to GitHub.
+- Contact page already works through WhatsApp and email links.
+- MongoDB is only needed for optional lead saving and future dashboard work.

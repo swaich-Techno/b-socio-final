@@ -1,0 +1,20 @@
+{
+  "name": "b-socio-vercel-emergency",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stable public B Socio website for Vercel with contact links and optional MongoDB lead saving.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "mongoose": "^8.23.1",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
